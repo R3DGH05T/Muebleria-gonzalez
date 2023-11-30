@@ -398,6 +398,7 @@ header nav a:hover{
 .shop1 h2{
     text-transform: capitalize;
     font-size: 1.2rem;
+    color: rgb(226, 17, 17);
 }
 .shop1 .gold{
     color: gold;
