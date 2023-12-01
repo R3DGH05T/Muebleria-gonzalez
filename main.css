@@ -72,6 +72,7 @@ body{
     text-decoration: none;
 }
 header{
+    height: 200px;
     position: sticky;
     top: 0;
     left: 0;
@@ -281,7 +282,8 @@ header nav a:hover{
 }
 @media(max-width: 576px){
     .bg-service .service-one{
-        width: 100%;
+        width: 80%;
+        padding: 20 20px;
     }
 }
 
@@ -294,11 +296,12 @@ header nav a:hover{
     justify-content: space-between;
     margin-bottom: 40px;
     align-items: center;
-    color: #FFF;
+    color: #f80606;
 }
 .shop-links h2{
     text-transform: capitalize;
     font-family: 'Pushster', cursive;
+    color: #f80606;
 }
 .shop-links .links{
     display: flex;
@@ -325,6 +328,8 @@ header nav a:hover{
     color: #FFf;
 }
 .shop1 .shop-image{
+    height: 600px;
+    width: 350px;
     position: relative;
     overflow: hidden;
     background: #212529;
@@ -398,7 +403,7 @@ header nav a:hover{
 .shop1 h2{
     text-transform: capitalize;
     font-size: 1.2rem;
-    color: rgb(226, 17, 17);
+    color: #d31f1f;
 }
 .shop1 .gold{
     color: gold;
@@ -615,7 +620,7 @@ header nav a:hover{
 }
 
 .about1-txt{
-    position: absolute;
+    
     top: 0;
     left: 0;
     width: 100%;
