@@ -18,8 +18,13 @@ font-family: 'Pushster', cursive;
 html{
     scroll-behavior: smooth;
 }
-body{
-    background: #000;
+body {
+    background-image: url('../img/pattern.jpg');
+    background-position: center;
+    background-color: #6f4d37;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .info{
     margin: 20 20px;
@@ -88,7 +93,7 @@ header{
 }
 header .logo img{
     height: 100%;
-    width: 150px;
+    width: 250px;
 }
 header nav{
     display: flex;
@@ -694,7 +699,7 @@ header nav a:hover{
 }
 .footer1 .footer-links a{
     text-decoration: none;
-    color: #FFF;
+    color: red;
     margin: 0 8px;
     font-size: 14px;
     display: inline-block;
