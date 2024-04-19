@@ -27,9 +27,11 @@
 }
 
 body {
+    width: 80%;
+    margin: 0 auto;
     background-image: url('./IMGS/pattern.jpg');
     background-position: center;
-    background-color: #6f4d37;
+   
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -46,12 +48,13 @@ a {
 }
 
 .main-container {
-    width: 89%;
-    margin: 2% auto;
+    width: 80%;
+    margin: 0 auto;
     display: grid;
     grid-template-rows: repeat(3, auto);
     grid-template-columns: repeat(3, 30%);
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .menu-item-container {
@@ -206,21 +209,21 @@ p.description-text{
     background-color: rgba(5, 131, 210, 1);
 }
 
-@media screen and (max-width:986px) {
+@media screen and (max-width:600px) {
     .menu-item-image-container {
-        width: 250px;
-        height: 250px;
-        max-width: 250px;
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
         max-height: 250px;
         margin: 2% auto 1%;
-        padding: 1%;
+        padding: 10%;
         border-radius: 10px;
     }
 }
 
 @media screen and (max-width:768px) {
     .main-container {
-        width: 89%;
+        width: 100%;
         margin: 2% auto;
         display: grid;
         justify-content: space-between;
