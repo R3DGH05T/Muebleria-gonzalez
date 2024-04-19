@@ -27,9 +27,9 @@
 }
 
 body {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
-    background-image: url('./IMGS/pattern.jpg');
+    background-image: url('./IMGS/pattern\ -\ copia.jpg');
     background-position: center;
    
     background-repeat: no-repeat;
@@ -48,7 +48,7 @@ a {
 }
 
 .main-container {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     display: grid;
     grid-template-rows: repeat(3, auto);
