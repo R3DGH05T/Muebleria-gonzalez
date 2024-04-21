@@ -23,8 +23,8 @@ html {
 }
 
 body {
-    background-image: url('./IMGS/pattern\ -\ copia.jpg');
-    background-position: center;
+    background-image: url('./IMGS/pattern\ -\ copia.jpg'
+    background-position: ;
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -892,8 +892,8 @@ body {
         }
     }
 
-    @media(max-width: 576px) {
-        .footer-flex .footer1{
-            width: 100%;
+        @media(max-width: 576px) {
+            .footer-flex .footer1 {
+                width: 100%;
+            }
         }
-    }
