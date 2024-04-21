@@ -893,7 +893,7 @@ body {
     }
 
     @media(max-width: 576px) {
-        .footer-flex .footer1 {
+        .footer-flex .footer1{
             width: 100%;
         }
     }
