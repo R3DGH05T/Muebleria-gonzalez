@@ -23,9 +23,9 @@ html {
 }
 
 body {
-    background-image: url('./IMGS/pattern\ -\ copia.jpg'
-    background-position: ;
-
+    background-image: url('../img/pattern.jpg');
+    background-position: center;
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
