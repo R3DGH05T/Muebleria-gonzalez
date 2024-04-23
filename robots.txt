@@ -1,6 +1,2 @@
-User-agent: Googlebot
-Disallow: /nogooglebot/
-Disallow: /menu.html/
-
-Sitemap: https://r3dgh05t.github.io/Muebleria-gonzalez/index.html
-Sitemap: https://r3dgh05t.github.io/Muebleria-gonzalez/menu.html
+User-agent: *
+Disallow:
